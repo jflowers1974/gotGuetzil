@@ -15,5 +15,13 @@ This script will take a test image as it's input, and apply the guetzil command 
 Be sure to add the ability for this file to execute.  In the terminal: 
 >chmod +x gotGuetzil.sh <enter>
 
-Then cd into the directory containing your test image, and make sure that the file is labeled, "TestImage.jpg"
+Then cd into the directory containing your test image, and make sure that the test image's filename is: "TestImage.jpg"
 If you would rather not use this label, then simply modify the script to reflect the correct filename that you are using.
+
+Finally:
+
+>./gotGuetzil.sh <enter>
+
+Or if you'd like the results saved into a textfile:
+
+>./gotGuetzil.sh > results.txt <enter>
